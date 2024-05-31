@@ -3,193 +3,313 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Icyville Drones</title>
-    <link rel="stylesheet" href="/index.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-     <link rel="icon" href="/assets/icon.png" type="image/png">
+    <title> Icyville Drones</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" href="/assets/camera-drone.png" type="image/png">
 </head>
-<body>
+<body >
+    <header class="header">
+        <div class="header-main">
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="logo">
+                <h1>Icyville Drones </h1>
+            </div>
+            <div class="header-icons">
+                <a href="#">Sign In</a>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a href="#"> Online Shop </a>
+                    <div class="dropdown-content">
+                        <div class="column">
+                            
+                        <a href="#">Fixed-wing </a>
+                        <a href="#">Multirator drones </a>
+                        <a href="#">Military Drones</a>
+                            
+                        </div>
+                        <hr>
+                        <div>
+                          <a href="#">Camera Drones</a>
+                            <a href="#">Toy Drones</a>
+                            <a href="#">Racing Drones</a>
+                        </div>
+                       <hr style="width:40%" color="#ddd">
+                      
+                        <hr>
+                    </div>
+               <li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+               </li>
+            </ul>
+        </nav>
+    </header>
+    
+  <!----main section --->
 
-<header class="navbar">
-    <div class="logo">Icyville Drones</div>
-    <nav class="desktop-nav">
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#products-pricing">products-pricing</a></li>
-            <li><a href="#social-platforms">Social Platforms</a></li>
-        </ul>
-    </nav>
-    <a href="#" class="signup-button">Sign Up</a> <!-- Sign Up button in desktop navbar -->
-    <div class="hamburger-menu">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-    </div>
+  <div class="best-sellers">
+    <img src="assets/pexels.jpg" alt="Best Sellers Image" class="best-sellers-image">
+   
+  <hr width="50%" color="black" />
+<!----end of main section -->
 
-    <div class="mobile-nav-links">
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#products-pricing">Products & Pricing</a></li>
-            <li><a href="#social-platforms">Social Platforms</a></li>
-            <li><a href="#">Sign Up</a></li> <!-- Sign Up button in mobile menu -->
-        </ul>
-    </div>
-</header>
-
-<div class="background-section">
-    <div class="title-content">
-        <h1 class="company-name">Types Of Drones</h1>
-        <p class="section-description">
+   <!----card slider section-->
+     <div class="new-drones">
+        <h2>Types of Drones</span>
+        <br>
+        <br>
+         <p>
             There are many types of drones that have different methods of taking off, flying, and landing.
-        </p>
-    </div>
-</div>
-
-<div class="slider-container">
-    <div class="slider">
-        <button class="prev-slide">&lt;</button>
-        <div class="image-list">
-            <img src="assets/AIR-ONE-4.webp" alt="" class="image-item">
-            <img src="assets/dronesimages3525497640.jpg" alt="" class="image-item">
-            <img src="assets/drone6908758.jpg" alt="" class="image-item">
-            <img src="assets/drone-1960720.jpg" alt="" class="image-item">
-            <img src="assets/ukraineblackhornetdrones.jpg" alt="" class="image-item">
-        </div>
-        <button class="next-slide">&gt;</button>
-    </div>
-</div>
-
-
-<div class="webp">
-    <img src="assets/DroneTA.webp" alt="" height="650px" width="1250px">
-</div>
-
-<div>
-    <center>
-    <h1  class="Recommendations">Recommendations For You </h1>
-    </center>
-</div>
-
-<div class="content" id="products-pricing">
-    <div class="slider-container1">
-        <div class="slider1">
-            <button class="prev-slide">&lt;</button>
-            <div class="image-list">
-                <img src="assets/AIR-ONE-4.webp" alt="" class="image-item">
-                <img src="assets/dronesimages3525497640.jpg" alt="" class="image-item">
-                <img src="assets/drone6908758.jpg" alt="" class="image-item">
-                <img src="assets/drone-1960720.jpg" alt="" class="image-item">
-                <img src="assets/ukraineblackhornetdrones.jpg" alt="" class="image-item">
+         </p>
+        </h2>
+        <div class="slider-container">
+            <button class="prev">&#10094;</button>
+            <div class="product-slider">
+                <div class="product">
+                    <img src="assets/AIR-ONE-4.webp" alt="">
+                    <h3>Fixed-wing Drones</h3>
+                    <p></p>
+                    <p class="price">$5.95</p>
+                </div>
+                <div class="product">
+                    <img src="assets/drone6908758.jpg" alt="">
+                    <h3>Gps Drones</h3>
+                    <p></p>
+                    <p class="price">$4.95</p>
+                </div>
+                <div class="product">
+                    <img src="assets/drone-1960720.jpg" alt="">
+                    <h3>DJI Camera Drones</h3>
+                    <p></p>
+                    <p class="price">$7.99</p>
+                </div>
+                <div class="product">
+                    <img src="assets/apliabledrone.jpg" alt="">
+                    <h3>Quadcopter Drones</h3>
+                    <p></p>
+                    <p class="price">$5.99</p>
+                </div>
+                <div class="product">
+                    <img src="assets/ukraineblackhornetdrones.jpg" alt="">
+                    <h3>Micro military Drones</h3>
+                    <p></p>
+                    <p class="price">$6.99</p>
+                </div>
+                <div class="product">
+                    <img src="assets/drone1765141.jpg" alt="">
+                    <h3>Gps Drones</h3>
+                    <p></p>
+                    <p class="price">$9.99</p>
+                </div>
+                <div class="product">
+                    <img src="assets/drone1127521920.jpg" alt="">
+                    <h3> DJI Camera Drones</h3>
+                    <p></p>
+                    <p class="price">$19.45</p>
+                </div>
             </div>
-            <button class="next-slide">&gt;</button>
+            <button class="next">&#10095;</button>
         </div>
     </div>
-    
-</div>
+    <!-----end of card slider section 1-->
+   
+    <hr width="50%" color="black" />
+
+       <!----main section ii-->
+    <div class="best-sellers">
+      <img src="assets/DroneTA.webp" alt="" class="best-sellers-image">
+  </div>
+  <hr/>
+  <!---end of main section -->
+  <hr width="50%" color="black" />
+   <!----card slider section -->
+      <div class="drones-container">
+        <h2> Gallery</h2>
+        <div class="slider-container">
+            <button class="prev" onclick="slide(-1)">&#10094;</button>
+            <div class="slider">
+                <div class="card">
+                    <img src="assets/AIR-ONE-4.webp" alt="" class="card-image">
+                    
+                </div>
+                <div class="card">
+                    <img src="assets/drone6908758.jpg" alt="" class="card-image">
+                    
+                </div>
+
+                <div class="card">
+                    <img src="assets/drone-1960720.jpg" alt="" class="card-image">
+                </div>
+
+                <div class="card">
+                    <img src="assets/apliabledrone.jpg" alt="" class="card-image">
+                </div>
+
+                <div class="card">
+                    <img src="assets/ukraineblackhornetdrones.jpg" alt="" class="card-image">
+                </div>
+
+                <div class="card">
+                    <img src="assets/drone1765141.jpg" alt="" class="card-image">
+                </div>
+
+                <div class="card">
+                    <img src="assets/drone1127521920.jpg" alt="" class="card-image">
+                </div>
+                
+            </div>
+            <button class="next" onclick="slide(1)">&#10095;</button>
+        </div>
+    </div>
+    <hr/>
+   <!-----end of card slider section 1-->
+   
+   <!---about section -->
+  <section id="about">
+     <div class="sections">
+       <div class="containers">
+        <div class="content-section">
+          <div class="title">
+            <h1> About Us</h1>
+          </div>
+          <div class="content">
+            <h1>Icyville is making drone delivery possible for everyone <br>
+                We're building an industry not just a company.
+            </h1>
+            <br>
+            <p> Hd Video Recording, Get the drone with a spectacular 4k camera. 
+                <br>
+                <br>
+                Advanced technology, We offer the latest drones in the market
+                <br>
+                <br>
+                Robust Structure, Even after falling down your drone will rise due to perfect structure
+            </p>
+          <div class="button">
+            <a href="">-Read More-</a>
+          </div>
+        </div>
+      </div>
+      <div class="image-section">
+        <img src="assets/derveit.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
 <br>
-
-<div class="content1" id="about">
-    <h2 class="Us">About Us</h2>
-    
-    
-    <img src="assets/derveit.jpg" alt="" height="300" width="450">
+<br>
+<br>
+<!--end of about section-->
+<hr width="50%" color="black" />
+<!--instagram section -->
+<div class="instagram-section">
+  <h2> Follow Us On Our Social Platforms</h2>
+  <div class="instagram-gallery">
+    <img src="assets/AIR-ONE-4.webp"alt="">
+    <img src="assets/drone6908758.jpg"alt="">
+    <img src="assets/drone-1960720.jpg"alt="">
+    <img src="assets/apliabledrone.jpg"alt="">
+    <img src="assets/ukraineblackhornetdrones.jpg"alt="">
+  </div>
 </div>
- 
-<div>
-<p class="p">
-    Our drones are masterpieces made by professionals for everyone who want to get <br> the best flying experience ever. 
-    We offer a lot of features that our competitors lack. 
-    <br>
-    <br>
-    Hd Video Recording, Get the drone with a spectacular 4k camera.
-    <br>
-    <br>
-    Robust Structure, Even after falling drown, your drone will rise due to perfect structure
-    <br>
-    <br>
-    Advanced Technology, We offer the latest drones on the market.
-    <br>
-    <br>
-    Our Strength lies in Our diverse background in cinematography, graphics and photography
-</p>
-</div>
-
-
-<div class="content2" id="social-platforms">
-    <h2> Follow Us On Our Social Platforms</h2>
-</div>
-
-<div class="pexels">
-    <img src="assets/DroneTA.webp" alt="" height="200px" width="200px">
-    <img src="assets/AIR-ONE-4.webp" alt="" height="200px" width="200px">
-    <img src="assets/pexels.jpg" alt="" height="200px" width="200px">
-    <img src="assets/drone08081920.jpg" alt="" height="200px" width="200px">
-    <img src="assets/drone651411920.jpg" alt="" height="200px" width="200px">
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="footer-col">
-                <h4> Company</h4>
-                <ul>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Our Services</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Affiliate Program</a></li>
-                </ul>
-            </div>
+<hr/>
+<!----end of Instagram section --->
+<hr width="50%" color="black" />
+<!----contact section--->
+<div class="contact-section">
+        <form class="contact-form">
+            <h2>Enter your name:</h2>
+            <input type="text" name="name" placeholder="Name" required>
+            
+            <h2>Your phone number:</h2>
+            <input type="tel" name="phone" placeholder="+254" required>
+            
+            <h2>Enter Email:</h2>
+            <textarea name="message" placeholder="Email" required></textarea>
+            
+            <label class="consent">
+                <input type="checkbox" required>
+                 Confirm if you are not a robot
+            </label>
+            
+            <button type="submit" class="submit-btn">Sign Up</button>
+        </form>
         
-            <div class="footer-col">
-                <h4> Get Help</h4>
-                <ul>
-                    <li><a href="#y">FAQ</a></li>
-                    <li><a href="#y">Shipping</a></li>
-                    <li><a href="#y">Order Status</a></li>
-                    <li><a href="#y">Payment Options</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col">
-                <h4> Oniline Shop</h4>
-                <ul>
-                    <li><a href="#y">Camera Drones</a></li>
-                    <li><a href="#y">Toy Drones</a></li>
-                    <li><a href="#y">Racing Drones</a></li>
-                    <li><a href="#y">Military Drones</a></li>
-                    <li><a href="#y">Professional Drones</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col">
-                <h4> Follow Us</h4>
-                <div class="social-links">
-                    <a href="https://google.com"><i class="fab fa-google"></i></a>
-                    <a href="https:facebok.com"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-                    <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
-                    <a href="https://linkedin.com"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://wa.me/254702100905"><i class="fab fa-whatsapp"></i></a>
-                    <a href="https://t.me/theerealicy"><i class="fab fa-telegram"></i></a>
-                    <a href="https://youtube.com"><i class="fab fa-youtube"></i></a>
-                    <br>
-                    <br>
-
-                </div>    
-            </div>
-
+        <div class="contact-info">
+            <h2>Contact to us:</h2>
+            <p> Get In Touch With Us:</p>
+            <p>Phone: +254 702 100 905 </p>
+            <p>Email: info@gmail.com</p>
+            <button class="request-call-btn">Request a call</button>
         </div>
-         
+    </div>
+
+
+ <!--footer section -->
+  <footer class="footer">
+    <div class="conta">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#y">About Us</a></li>
+            <li><a href="#y">Our Services</a></li>
+            <li><a href="#y">Privacy Policy</a></li>
+            <li><a href="#y">Affiliate Program</a></li>
+          </ul>
+        </div>
+   
+        <div class="footer-col">
+          <h4>Get Help</h4>
+          <ul>
+            <li><a href="#y">FAQ</a></li>
+            <li><a href="#y">Shipping</a></li>
+            <li><a href="#y">Order Status</a></li>
+            <li><a href="#y">Payment Options</a></li>
+          </ul>
+        </div>
+        
+
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+              <a href="https://google.com"><i class="fab fa-google"></i></a>
+              <a href="https:facebok.com"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+              <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+              <a href="https://linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://wa.me/254702100905"><i class="fab fa-whatsapp"></i></a>
+              <a href="https://t.me/theerealicy"><i class="fab fa-telegram"></i></a>
+              <a href="https://youtube.com"><i class="fab fa-youtube"></i></a>
+               
+          </div>
+        </div>
+      </div>
     </div>
     <br>
-    <center>                <p><span style="color: whitesmoke;"> © Icyville Drones 2024. all rights reserved. </span></p>
-    </center>
+    <br>
+    <br>
+    <br>
 
+    <center>
+    <p><span style="color: whitesmoke;"> © Icyville Drones 2024. all rights reserved. </span></p>
+  </center>
+
+  </footer>
+  <!--end of footer section -->
     
-    
 
-</footer>
-
-<script src="index.js"></script>
+    <script src="script.js"></script>
+   
 </body>
 </html>
